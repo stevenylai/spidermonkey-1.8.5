@@ -1,0 +1,5 @@
+Build with gcc-7.3:
+
+  mkdir -p build && cd build
+  CXXFLAGS="-fpermissive -Wno-narrowing" ../js/src/configure
+
